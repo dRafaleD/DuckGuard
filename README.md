@@ -2,13 +2,12 @@
 
 [![Build and package](https://github.com/dRafaleD/DuckGuard/actions/workflows/build.yml/badge.svg)](https://github.com/dRafaleD/DuckGuard/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)
 
 **Inspect container configuration before deployment and while containers are running.**
 
 DuckGuard is a Rust CLI that checks Dockerfiles, Docker Compose files, and running Docker container configuration. Each finding includes a rule ID, severity, explanation, and remediation suggestion.
 
-> **Early alpha:** DuckGuard provides configuration review hints, not a security certification. Read the [limitations](#limitations) before relying on its results.
+> Read the [limitations](#limitations) to understand the scope of the configuration findings.
 
 ## Two ways to scan
 
